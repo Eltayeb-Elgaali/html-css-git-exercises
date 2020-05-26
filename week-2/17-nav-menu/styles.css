@@ -1,1 +1,23 @@
 /* Write your media queries and flexbox CSS below */
+
+/* below effect will happen in screen size of 480px and wider */
+@media (min-width: 480px) {
+  .site-header__nav {
+    display: flex;
+  }
+}
+
+/* below effect will happen in screen size of 700px and wider */
+@media (min-width: 700px) {
+  .site-header {
+    display: flex;
+  }
+}
+
+/* below effect will happen in screen size of 992px and wider */
+@media (min-width: 992px) {
+  .site-header {
+    display: flex;
+    justify-content: space-between;
+  }
+}
