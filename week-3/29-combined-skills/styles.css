@@ -16,3 +16,22 @@ ul.main-nav__list {
   display: flex;
   justify-content: space-around;
 }
+
+@media (min-width: 767px) {
+  header.site-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .views {
+    display: flex;
+    align-items: center;
+  }
+  a.view-list__item {
+    margin: 0 1.2em;
+  }
+  .views a:last-child {
+    margin-left: auto;
+  }
+}
