@@ -3,3 +3,16 @@
 .heart {
   color: #c85308;
 }
+
+@media (min-width: 992px) {
+  h2.hero__title {
+    font-family: Arial, Helvetica, sans-serif;
+    max-width: 14em;
+    font-size: 3.1rem;
+  }
+}
+
+ul.main-nav__list {
+  display: flex;
+  justify-content: space-around;
+}
